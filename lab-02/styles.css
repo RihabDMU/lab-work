@@ -1,0 +1,40 @@
+nav {
+    flex-direction: column;
+    width: 15vw;
+    flex-shrink: 0;
+    /* order: 2; */
+    box-sizing: border-box;
+    /* float: left; */
+    display: flex;
+    background-color: red;
+}
+
+main {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+p {
+    padding: 1.5em;
+}
+
+nav a {
+    background-color: pink;
+    color: purple;
+    padding: 0.5em;
+    margin: 0.5em;
+    text-decoration:dotted;
+    transition: background-color 0.6s;
+}
+
+nav a:hover {
+  background-color: red;
+}
+
+header, main, section {
+    /* float: right; */
+    /* width: 80vw; */
+    box-sizing: border-box;
+    background-color: aqua;
+    overflow: auto;
+  }
